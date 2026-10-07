@@ -1,0 +1,3 @@
+﻿# Satu target per baris
+example.com
+testphp.vulnweb.com

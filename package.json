@@ -1,0 +1,19 @@
+﻿{
+  "name": "alhindawi-hunter",
+  "version": "10.0.0",
+  "description": "Nuclei-powered bug bounty recon + vulnerability scanner with Bugcrowd VRT v1.19 mapping, CVE intelligence, and false-positive reduction engine.",
+  "main": "alhindawi.js",
+  "bin": { "alhindawi": "./alhindawi.js" },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node alhindawi.js",
+    "dry-run": "node alhindawi.js targets.txt --dry-run"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "keywords": ["bugbounty","nuclei","pentest","recon","bugcrowd","vrt","cve","security"],
+  "author": "ALHINDAWI",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/USERNAME/alhindawi-hunter.git" },
+  "bugs": { "url": "https://github.com/USERNAME/alhindawi-hunter/issues" },
+  "homepage": "https://github.com/USERNAME/alhindawi-hunter#readme"
+}
